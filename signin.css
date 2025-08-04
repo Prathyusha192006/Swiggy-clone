@@ -1,0 +1,178 @@
+header {
+  background-color: #fb641b;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+nav {
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: opacity 0.3s;
+}
+nav a:hover {
+  text-decoration: underline;
+  opacity: 0.9;
+}
+/* Sign In Section */
+.signin-section {
+  background-color: #f7f7f7;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-form {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.signin-form h2 {
+  margin-bottom: 20px;
+  color: #ff6600;
+}
+
+.signin-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.signin-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signin-form button:hover {
+  background-color: #e05400;
+}
+
+.signup-link {
+  margin-top: 10px;
+}
+
+.signup-link a {
+  color: #ff6600;
+  text-decoration: none;
+}
+footer {
+  background-color: #222;
+  color: #eee;
+  padding: 30px 20px;
+  margin-top: 50px;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+.footer-section {
+  flex: 1 1 220px;
+}
+.footer-section h3 {
+  color: #fb641b;
+  margin-bottom: 10px;
+}
+.footer-links a {
+  display: block;
+  color: #eee;
+  text-decoration: none;
+  margin-bottom: 8px;
+  transition: color 0.3s;
+}
+.footer-links a:hover {
+  color: #fb641b;
+  text-decoration: underline;
+}
+.social-icons a {
+  font-size: 1.5rem;
+  margin-right: 12px;
+  color: #eee;
+  transition: color 0.3s;
+}
+.social-icons a:hover {
+  color: #fb641b;
+}
+
+.hero-banner {
+text-align: center;
+background: linear-gradient(to right, #ff6a00, #ee0979);
+color: white;
+padding: 60px 20px;
+}
+
+.hero-banner h1 {
+font-size: 2.5rem;
+margin-bottom: 10px;
+}
+
+.cta-button {
+padding: 12px 24px;
+background-color: white;
+color: #ff6a00;
+font-weight: bold;
+border: none;
+border-radius: 25px;
+cursor: pointer;
+}
+
+.cta-button:hover {
+background-color: #fff3e0;
+}
+
+.app-promo {
+text-align: center;
+padding: 40px 20px;
+background-color: #fefefe;
+}
+
+.app-promo img {
+height: 50px;
+margin: 10px;
+}
+
+.scroll-top {
+position: fixed;
+bottom: 20px;
+right: 20px;
+background-color: orange;
+color: white;
+border: none;
+padding: 12px;
+border-radius: 50%;
+cursor: pointer;
+box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+.scroll-top:hover {
+background-color: darkorange;
+}
